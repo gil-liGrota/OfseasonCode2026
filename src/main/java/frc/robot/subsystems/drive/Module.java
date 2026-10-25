@@ -128,7 +128,7 @@ public class Module {
   public double[] getOdometryTimestamps() {
     return inputs.odometryTimestamps;
   }
-
+  
   /** Returns the module position in radians. */
   public double getWheelRadiusCharacterizationPosition() {
     return inputs.drivePositionRad;
